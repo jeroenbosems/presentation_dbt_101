@@ -1,0 +1,12 @@
+# profiles.yml
+
+default:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ./jaffle_shop.duckdb
+      schema: main
+      threads: 4
+
+      
